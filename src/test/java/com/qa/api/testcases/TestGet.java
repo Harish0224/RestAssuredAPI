@@ -18,7 +18,7 @@ public class TestGet {
 		HttpMethods http=new HttpMethods(Pr);
 		Response Res=http.GetRequest("URI");
 		ResponseValidation ResObj=new ResponseValidation();
-		ResObj.ResponseValidation(Res);
+		ResObj.ResponseValidations(Res);
 		}
 	}
 
